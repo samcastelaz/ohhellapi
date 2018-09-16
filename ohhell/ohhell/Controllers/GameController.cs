@@ -22,10 +22,10 @@ namespace ohhell.Controllers
         }
 
         // GET: Game/Create
-        public ActionResult Create()
+        public JsonResult Create()
         {
             
-            return View();
+            return Json("{\"gameid\":\"1234\"}");
         }
 
         // POST: Game/Create
