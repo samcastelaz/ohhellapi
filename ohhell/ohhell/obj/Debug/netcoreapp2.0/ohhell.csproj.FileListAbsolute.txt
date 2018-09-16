@@ -1,0 +1,11 @@
+C:\Users\Sam\Documents\GitHub\ohhellapi\ohhell\ohhell\bin\Debug\netcoreapp2.0\ohhell.deps.json
+C:\Users\Sam\Documents\GitHub\ohhellapi\ohhell\ohhell\bin\Debug\netcoreapp2.0\ohhell.runtimeconfig.json
+C:\Users\Sam\Documents\GitHub\ohhellapi\ohhell\ohhell\bin\Debug\netcoreapp2.0\ohhell.runtimeconfig.dev.json
+C:\Users\Sam\Documents\GitHub\ohhellapi\ohhell\ohhell\bin\Debug\netcoreapp2.0\ohhell.dll
+C:\Users\Sam\Documents\GitHub\ohhellapi\ohhell\ohhell\obj\Debug\netcoreapp2.0\ohhell.csprojAssemblyReference.cache
+C:\Users\Sam\Documents\GitHub\ohhellapi\ohhell\ohhell\obj\Debug\netcoreapp2.0\ohhell.csproj.CoreCompileInputs.cache
+C:\Users\Sam\Documents\GitHub\ohhellapi\ohhell\ohhell\obj\Debug\netcoreapp2.0\ohhell.AssemblyInfoInputs.cache
+C:\Users\Sam\Documents\GitHub\ohhellapi\ohhell\ohhell\obj\Debug\netcoreapp2.0\ohhell.AssemblyInfo.cs
+C:\Users\Sam\Documents\GitHub\ohhellapi\ohhell\ohhell\bin\Debug\netcoreapp2.0\ohhell.pdb
+C:\Users\Sam\Documents\GitHub\ohhellapi\ohhell\ohhell\obj\Debug\netcoreapp2.0\ohhell.dll
+C:\Users\Sam\Documents\GitHub\ohhellapi\ohhell\ohhell\obj\Debug\netcoreapp2.0\ohhell.pdb
