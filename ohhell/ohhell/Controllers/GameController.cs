@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ohhell.ContainerClasses;
+using ohhell.DAL;
 
 namespace ohhell.Controllers
 {
@@ -24,8 +26,9 @@ namespace ohhell.Controllers
         // GET: Game/Create
         public JsonResult Create()
         {
-            
-            return Json("{\"gameid\":\"1234\"}");
+            GameDAO dao = new GameDAO();
+            Game game = dao.generateNewGame();
+            return Json("{\"gameid\":\"" + game.GameId + "\"}");
         }
 
         // POST: Game/Create

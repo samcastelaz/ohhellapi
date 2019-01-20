@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "5f173756550d08a490be4733b3ce664a70fdb461"
+    "signature": "3ca29a0c3805c29ee30535d6db6f4a2aa26d9311"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
       "ohhellapi.Tests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.8.0",
+          "RhinoMocks": "3.6.1",
           "ohhell": "1.0.0",
           "xunit": "2.3.1",
           "xunit.runner.visualstudio": "2.3.1"
@@ -2766,6 +2767,14 @@
           "lib/netstandard1.0/Remotion.Linq.dll": {
             "assemblyVersion": "2.1.0.0",
             "fileVersion": "2.1.1.30000"
+          }
+        }
+      },
+      "RhinoMocks/3.6.1": {
+        "runtime": {
+          "lib/net/Rhino.Mocks.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
           }
         }
       },
@@ -5656,6 +5665,13 @@
       "sha512": "sha512-IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
       "path": "remotion.linq/2.1.1",
       "hashPath": "remotion.linq.2.1.1.nupkg.sha512"
+    },
+    "RhinoMocks/3.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L4n+3ssxCTHfDHXTTBgCLWcRDzwwFYf0mIWKdqNlAmlJT5soSBDmGzdLf80aA9IJAd3QiTAP95ai3mkJfAPzFQ==",
+      "path": "rhinomocks/3.6.1",
+      "hashPath": "rhinomocks.3.6.1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

@@ -1,5 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
+using ohhell.ContainerClasses;
 using ohhell.Controllers;
+using ohhell.DAL;
+using Rhino.Mocks;
 using System;
 using Xunit;
 
@@ -17,8 +20,11 @@ namespace ohhellapi.Tests
         [Fact]
         public void CreateReturnsJSONStringOfGameId()
         {
-            var gameId = _controller.Create();
-            Assert.Equal("{\"gameid\":\"1234\"}", gameId.Value);
+            Game game = new Game();
+            game.GameId = "1234";
+
+            var gameId = _controller.Create();           
+            Assert.Equal("{\"gameid\":\"1\"}", gameId.Value);
         }
     }
 }
